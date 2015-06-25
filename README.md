@@ -1,5 +1,5 @@
 # summary-protocols
-Projeto exemplo do uso de tshar e gnuplot em bash.
+Projeto exemplo para uso do tshark e gnuplot com bash.
 
 ### Uso
 
