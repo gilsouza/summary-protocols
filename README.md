@@ -1,5 +1,5 @@
 # summary-protocols
-Projeto exemplo para uso do tshark e gnuplot com bash.
+Projeto exemplo para uso do TShark e BnuPlot no Bash Script.
 
 ### Uso
 
@@ -19,7 +19,7 @@ Projeto exemplo para uso do tshark e gnuplot com bash.
       - Poderá ser NOME + NUMERO (ex: lalala1.pcap).
       - Os códigos até agora não levam isso em consideração.
   * protocols_summary.sh:
-      - Versão do gráfico em barras por protocolo (usando tshark e gnuplot).
+      - Versão do gráfico em barras por protocolo (usando TShark e GnuPlot).
       - Ele é chamado pelo iterate.sh e recebe por argumento o endereço do arquivo.
       - Cria uma pasta graphs/protocols onde será trabalhada.
 
@@ -34,7 +34,7 @@ Para iterar os arquivos .pcap contidos na pasta pcap/
 ou
 
 ```sh
-  $ ./protocols_summary.sh ENDERECO_ARQUIVO_PCAP
+  $ ./protocols_summary.sh ARQUIVO_PCAP
 ```
 
 Para gerar o gráfico do pcap passado por argumento.
@@ -48,4 +48,4 @@ Ex: capinfos, tshark, mergecap, editcap e etc.
 
 [Documentação oficial GnuPlot.](http://www.gnuplot.info)
 
-[Tutorial plotagem de gráficos.](http://fiscomp.if.ufrgs.br/index.php/Gnuplot)
+[Tutorial plotagem de gráficos com GnuPlot.](http://fiscomp.if.ufrgs.br/index.php/Gnuplot)
